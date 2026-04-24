@@ -1,27 +1,67 @@
 # ContextMenu
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+**Repository Description**  
+This repository contains an Angular application generated using Angular CLI that provides a standard project setup for developing and running an Angular project.
 
-## Development server
+The project serves as a basic Angular CLI–generated application and demonstrates common development workflows such as running a development server, generating components, building the application, and executing tests.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Project Overview
+This project is intended to provide a foundational Angular application structure created with Angular CLI. It helps developers understand the default configuration and commonly used Angular CLI commands during development.
 
-## Code scaffolding
+## Features
+- Angular CLI–based project structure  
+- Live reload during development  
+- Component scaffolding support  
+- Preconfigured build and testing workflows  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
+- Angular  
+- Angular CLI 11.0.4  
+- Karma for unit testing  
+- Protractor for end‑to‑end testing  
 
-## Build
+## Prerequisites
+- Node.js  
+- Angular CLI 11.x  
+- A modern web browser  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Installation and Running the Application
 
-## Running unit tests
+### Clone the Repository
+Clone the repository to your local machine using Git:
+```bash
+git clone https://github.com/SyncfusionExamples/ej2-angular-11-context-menu.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Development Server
+Run the following command to start the development server:
+```bash
+ng serve
+```
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Running end-to-end tests
+### Code Scaffolding
+Generate new components or other Angular building blocks using:
+```bash
+ng generate component component-name
+```
+You can also generate directives, pipes, services, classes, guards, interfaces, enums, and modules.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Build
+Run the following command to build the project:
+```bash
+ng build
+```
+The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Further help
+### Testing
+- **Unit tests:** Run `ng test` to execute unit tests via Karma.
+- **End‑to‑end tests:** Run `ng e2e` to execute end‑to‑end tests via Protractor.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Troubleshooting
+- Ensure Node.js and Angular CLI versions are compatible.
+- Restart the development server if changes are not reflected.
+- Check the browser console for runtime errors.
+
+## Support
+For additional Angular CLI help, run ng help or refer to the Angular CLI documentation.
